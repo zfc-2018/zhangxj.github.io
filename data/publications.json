@@ -1,0 +1,70 @@
+[
+  {
+    "year": 2026,
+    "title": "Asymptotic-Preserving Particle-In-Cell Method for the Magnetized Vlasov–Poisson–Fokker–Planck Equation",
+    "authors": ["Anjiao Gu", "Xiaojiang Zhang"],
+    "venue": "Journal of Scientific Computing",
+    "citation": "108, Article 49 (2026)",
+    "url": "https://doi.org/10.1007/s10915-026-03373-x",
+    "linkLabel": "DOI",
+    "summary": "Asymptotic-preserving particle methods for a strongly magnetized kinetic equation, with analysis of their asymptotic properties and uniform convergence.",
+    "source": "https://link.springer.com/article/10.1007/s10915-026-03373-x"
+  },
+  {
+    "year": 2025,
+    "title": "Depth splitting method for the linear Boltzmann model of primary proton distribution",
+    "authors": ["Xiaojiang Zhang", "Xuemin Bai", "Min Tang"],
+    "venue": "Communications in Computational Physics",
+    "citation": "Accepted (2025)",
+    "cvCitation": "accepted, 2025",
+    "url": "https://arxiv.org/abs/2504.00340",
+    "linkLabel": "arXiv",
+    "summary": "A deterministic solver combining scattering decomposition and depth splitting for proton transport, with dose distributions compared against Monte Carlo simulations.",
+    "note": "Preprint title: A deterministic solver for the linear Boltzmann model of a single mono-directional proton beam.",
+    "source": "https://ins.sjtu.edu.cn/people/mtang/Publications.html"
+  },
+  {
+    "year": 2023,
+    "title": "A fully asymptotic preserving decomposed multi-group method for the frequency-dependent radiative transfer equations",
+    "authors": ["Xiaojiang Zhang", "Peng Song", "Yi Shi", "Min Tang"],
+    "venue": "Journal of Computational Physics",
+    "citation": "491, 112368 (2023)",
+    "url": "https://doi.org/10.1016/j.jcp.2023.112368",
+    "linkLabel": "DOI",
+    "summary": "A decomposed multi-group method with asymptotic-preserving frequency, time, and space discretizations in different radiation diffusion limits.",
+    "source": "https://ins.sjtu.edu.cn/people/mtang/Publications.html"
+  },
+  {
+    "year": 2022,
+    "title": "A spatial-temporal asymptotic preserving scheme for radiation magnetohydrodynamics in the equilibrium and non-equilibrium diffusion limit",
+    "authors": ["Shi Jin", "Min Tang", "Xiaojiang Zhang"],
+    "venue": "Journal of Computational Physics",
+    "citation": "452, 110895 (2022)",
+    "url": "https://doi.org/10.1016/j.jcp.2021.110895",
+    "linkLabel": "DOI",
+    "summary": "A decomposition of radiative intensity yields a space-time asymptotic-preserving scheme for both equilibrium and non-equilibrium diffusion limits.",
+    "source": "https://ins.sjtu.edu.cn/people/mtang/Publications.html"
+  },
+  {
+    "year": 2021,
+    "title": "Accurate Front Capturing Asymptotic Preserving Scheme for Nonlinear Gray Radiative Transfer Equation",
+    "authors": ["Min Tang", "Li Wang", "Xiaojiang Zhang"],
+    "venue": "SIAM Journal on Scientific Computing",
+    "citation": "43(3), B759–B783 (2021)",
+    "url": "https://doi.org/10.1137/20M1318031",
+    "linkLabel": "DOI",
+    "summary": "A prediction-correction-projection approach that captures front propagation in the nonlinear diffusion limit while preserving the free-streaming limit.",
+    "source": "https://ins.sjtu.edu.cn/people/mtang/Publications.html"
+  },
+  {
+    "year": 2021,
+    "title": "Semi-implicit front capturing schemes for the degenerate nonlinear radiative diffusion equation",
+    "authors": ["Min Tang", "Xiaojiang Zhang"],
+    "venue": "Journal of Computational Physics",
+    "citation": "436, 110290 (2021)",
+    "url": "https://doi.org/10.1016/j.jcp.2021.110290",
+    "linkLabel": "DOI",
+    "summary": "Two semi-implicit front-capturing schemes for degenerate nonlinear radiative diffusion, examining accuracy, stability, and computational cost.",
+    "source": "https://ins.sjtu.edu.cn/people/mtang/Publications.html"
+  }
+]

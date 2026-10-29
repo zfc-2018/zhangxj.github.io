@@ -1,0 +1,56 @@
+{
+  "name": "Xiaojiang Zhang",
+  "email": "zhang_xiaojiang@csu.edu.cn",
+  "university": "Central South University",
+  "department": "School of Mathematics and Statistics",
+  "location": "Changsha, China",
+  "website": "https://zfc-2018.github.io/zhangxj.github.io/",
+  "facultyPage": "https://faculty.csu.edu.cn/zhangxiaojiang/zh_CN/index.htm",
+  "updated": "October 29, 2026",
+  "about": "I am with the School of Mathematics and Statistics at Central South University, which I joined in July 2024. I received my Ph.D. in Computational Mathematics from Shanghai Jiao Tong University in 2022, advised by Professor Min Tang, and my B.Sc. in Mathematics and Applied Mathematics from Central South University in 2016. From 2022 to 2024, I was a postdoctoral researcher at the Institute of Natural Sciences, Shanghai Jiao Tong University.",
+  "research": [
+    "Numerical methods for partial differential equations and multiscale problems",
+    "Asymptotic-preserving schemes for radiative transfer and radiation magnetohydrodynamics",
+    "Particle methods for kinetic equations in strongly magnetized regimes",
+    "Deterministic numerical methods for proton transport and dose calculation"
+  ],
+  "employment": [
+    { "institution": "Central South University", "dates": "Jul. 2024 - present", "details": ["School of Mathematics and Statistics"] },
+    { "institution": "Shanghai Jiao Tong University", "dates": "Jul. 2022 - Jul. 2024", "details": ["Institute of Natural Sciences", "Postdoctoral Researcher. Mentors: H. P. Zhang and Min Tang"] }
+  ],
+  "education": [
+    { "institution": "Shanghai Jiao Tong University", "dates": "Sep. 2016 - Aug. 2022", "details": ["Ph.D. in Computational Mathematics. Advisor: Min Tang"] },
+    { "institution": "Central South University", "dates": "Sep. 2012 - Jun. 2016", "details": ["B.Sc. in Mathematics and Applied Mathematics"] }
+  ],
+  "teaching": [
+    { "course": "Probability and Statistics", "level": "Undergraduate course", "semester": "Fall", "year": 2025, "institution": "Central South University" },
+    { "course": "Linear Algebra", "level": "Undergraduate course", "semester": "Spring", "year": 2025, "institution": "Central South University" },
+    { "course": "Statistical Inverse Problem", "level": "Graduate course", "semester": "Fall", "year": 2025, "institution": "Central South University" }
+  ],
+  "grants": [
+    { "title": "Young Scientists Fund, National Natural Science Foundation of China", "role": "Principal Investigator", "dates": "" },
+    { "title": "Young Scientists Fund, Natural Science Foundation of Hunan Province", "role": "Principal Investigator", "dates": "" },
+    { "title": "China Postdoctoral Science Foundation, 72nd General Program (Second Class)", "role": "Principal Investigator", "dates": "Nov. 2022 - Jun. 2024" },
+    { "title": "Nuclear Science Challenge Program for National Defense Basic Research", "role": "Participant", "dates": "Jan. 2017 - Dec. 2019" },
+    { "title": "Special Project, CAEP Inertial Confinement Center", "role": "Participant", "dates": "Jan. 2018 - Dec. 2019" },
+    { "title": "Strategic Priority Research Program, Chinese Academy of Sciences", "role": "Participant", "dates": "Jan. 2020 - Dec. 2024" }
+  ],
+  "awards": [
+    { "year": "2023", "title": "Chenxing Postdoctoral Program, Shanghai Jiao Tong University" },
+    { "year": "2022", "title": "Outstanding Graduate, Shanghai Jiao Tong University" },
+    { "year": "2021", "title": "Outstanding Student, Shanghai Jiao Tong University" },
+    { "year": "2021", "title": "Wu Wenjun Scholarship, Shanghai Jiao Tong University" },
+    { "year": "2021", "title": "Weichai Power Scholarship, Shanghai Jiao Tong University" },
+    { "year": "2016", "title": "Outstanding Graduate, Central South University" },
+    { "year": "2014", "title": "Huang Qianheng Scholarship, Central South University" }
+  ],
+  "talks": [
+    "Workshop on Scientific Computing: Algorithms and Modeling, Shanghai Jiao Tong University, 2023.",
+    "Doctoral Workshop on Applied Mathematics, Fudan University, 2022.",
+    "Invited talk, TM20 Minisymposium, 19th Annual Meeting of the China Society for Industrial and Applied Mathematics.",
+    "Invited talk, 4th Peking University Workshop for Outstanding Doctoral Students in Computational and Applied Mathematics and 7th Beijing Graduate Forum on Computational Mathematics.",
+    "Student presentation, 2018 Annual Meeting of the Challenge Program on High-Accuracy and High-Resolution Computational Methods."
+  ],
+  "service": ["Workshop organization: Workshop on Kinetic and Fluid Equations, 2023."],
+  "patents": ["A simulation method for determining primary proton dose distributions based on probability density and operator splitting (patent application)."]
+}
