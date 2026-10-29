@@ -1,0 +1,51 @@
+/* Small accessibility and responsive additions to the reference jemdoc stylesheet. */
+html { scroll-padding-top: 12px; }
+body { color: #111; }
+table#tlayout { width: calc(100% - 4px); margin: 2px; table-layout: fixed; }
+#layout-menu { width: 132px; padding: 6px 8px; }
+#layout-content { padding: 0 16px 20px 18px; }
+.menu-inner { position: sticky; top: 12px; }
+.menu-item { line-height: 1.5; }
+.profile { display: flex; align-items: center; gap: 26px; margin: 8px 0 24px; }
+.portrait { display: block; width: 160px; height: auto; flex: 0 0 160px; }
+.profile-info p { line-height: 1.4; }
+.profile-info a { overflow-wrap: anywhere; }
+.publication-list { padding-left: 24px; }
+.publication { padding-left: 2px; margin-bottom: 18px; }
+.publication p { margin-bottom: 3px; }
+.paper-title { font-weight: bold; }
+.paper-summary, .paper-note { font-size: 93%; color: #505050; }
+.paper-note { font-size: 86%; }
+.entry { display: grid; grid-template-columns: 175px minmax(0, 1fr); gap: 12px; margin: 10px 0 14px; }
+.entry p { margin-bottom: 2px; }
+.date { color: #555; }
+.honors { padding-left: 22px; }
+.honors li, .project-list li { margin-bottom: 7px; }
+.small { color: #555; font-size: 93%; }
+.skip-link { position: absolute; left: 12px; top: -60px; padding: 6px; background: white; }
+.skip-link:focus { top: 0; z-index: 2; }
+a:focus-visible { outline: 2px solid #527bbd; outline-offset: 3px; }
+#footer-text { float: none; }
+#footer-text p { color: #777; }
+@media (max-width: 700px) {
+  table#tlayout, table#tlayout > tbody, table#tlayout > tbody > tr { display: block; width: 100%; margin: 0; }
+  #layout-menu { display: block; width: auto; margin: 2px; padding: 8px 12px; white-space: normal; }
+  .menu-inner { display: flex; flex-wrap: wrap; gap: 2px 16px; position: static; }
+  .menu-category { display: none; }
+  .menu-item { padding: 0; text-indent: 0; }
+  #layout-menu a { margin: 0; white-space: nowrap; }
+  #layout-content { display: block; padding: 0 16px 20px; }
+  .profile { gap: 18px; align-items: flex-start; }
+  .portrait { width: 100px; flex-basis: 100px; }
+  .profile-info { min-width: 0; }
+  .profile-info p { font-size: 14px; }
+  .entry { grid-template-columns: 1fr; gap: 2px; }
+  .date { font-size: 93%; }
+  a { overflow-wrap: anywhere; }
+}
+@media (max-width: 360px) { .profile { flex-direction: column; } }
+@media print {
+  #layout-menu, .skip-link { display: none; }
+  #layout-content { padding: 0; }
+  .publication, .entry { break-inside: avoid; }
+}

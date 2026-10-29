@@ -1,616 +1,181 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xiaojiang Zhang | Central South University</title>
+  <meta name="description" content="Xiaojiang Zhang, School of Mathematics and Statistics, Central South University. Numerical methods for PDEs, asymptotic-preserving schemes, and kinetic equations.">
+  <link rel="canonical" href="https://zfc-2018.github.io/zhangxj.github.io/">
+  <link rel="stylesheet" href="jemdoc.css">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip-link" href="#about">Skip to content</a>
+<table id="tlayout" role="presentation">
+  <tr>
+    <td id="layout-menu">
+      <nav class="menu-inner" aria-label="Site navigation">
+        <div class="menu-category">Home</div>
+        <div class="menu-item"><a href="#about" class="current">About me</a></div>
+        <div class="menu-item"><a href="files/Xiaojiang_Zhang_CV.pdf">CV (PDF)</a></div>
+        <div class="menu-category">Research</div>
+        <div class="menu-item"><a href="#research">Interests</a></div>
+        <div class="menu-item"><a href="#publications">Publications</a></div>
+        <div class="menu-item"><a href="#experience">Experiences</a></div>
+        <div class="menu-item"><a href="#teaching">Teaching</a></div>
+        <div class="menu-item"><a href="#projects">Projects</a></div>
+        <div class="menu-item"><a href="#honors">Awards</a></div>
+        <div class="menu-item"><a href="#activities">Talks &amp; Service</a></div>
+        <div class="menu-item"><a href="#patents">Patent</a></div>
+      </nav>
+    </td>
+    <td id="layout-content">
+      <div id="toptitle"><h1>Xiaojiang Zhang</h1></div>
+      <div class="profile">
+        <img class="portrait" src="images/zhang-xiaojiang.png" width="160" alt="Xiaojiang Zhang">
+        <div class="profile-info">
+          <p><strong>Xiaojiang Zhang, Ph.D.</strong><br>
+          School of Mathematics and Statistics<br>
+          Central South University<br>
+          Changsha, China</p>
+          <p>Email: <a href="mailto:zhang_xiaojiang@csu.edu.cn">zhang_xiaojiang@csu.edu.cn</a><br>
+          [<a href="files/Xiaojiang_Zhang_CV.pdf">Curriculum Vitae</a>]
+          [<a href="https://faculty.csu.edu.cn/zhangxiaojiang/zh_CN/index.htm">University Profile</a>]</p>
+        </div>
+      </div>
 
-<!-- https://ibruce.info/2015/04/04/busuanzi/#more -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About me</h2>
+        <p>I am with the School of Mathematics and Statistics at Central South University, which I joined in July 2024. I received my Ph.D. in Computational Mathematics from Shanghai Jiao Tong University in 2022, advised by <a href="https://ins.sjtu.edu.cn/people/mtang/">Professor Min Tang</a>, and my B.Sc. in Mathematics and Applied Mathematics from Central South University in 2016. From 2022 to 2024, I was a postdoctoral researcher at the Institute of Natural Sciences, Shanghai Jiao Tong University.</p>
+        <p>I study numerical methods for partial differential equations, with particular interests in multiscale kinetic problems and asymptotic-preserving schemes. My work includes radiative transfer, radiation magnetohydrodynamics, particle methods, and proton transport.</p>
+      </section>
 
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width">
-        <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-        <meta name="google-site-verification" content="p7SNRHPF7y83Q-nNBLkrxFhAAosW2t40unwTxByZ0vo" />
-        <meta charset="utf-8">
+      <section id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research Interests</h2>
+        <ul>
+          <li>Numerical methods for partial differential equations and multiscale problems</li>
+          <li>Asymptotic-preserving schemes for radiative transfer and radiation magnetohydrodynamics</li>
+          <li>Particle methods for kinetic equations in strongly magnetized regimes</li>
+          <li>Deterministic numerical methods for proton transport and dose calculation</li>
+        </ul>
+      </section>
 
-        <style type="text/css">
-            /* Color scheme stolen from Sergey Karayev */
-            span.tag {
-                font-size: 11px;
-                color: #FFFFFF;
-                /* color: #07889b; */
-                background-color: #0076DF;
-                box-shadow: 2px 2px 1px #E0E0E0;
-                padding: 1px 5px 2px 5px;
-            }
+      <section id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications and Accepted Papers</h2>
+        <ol class="publication-list">
+          <li class="publication">
+            <p><a class="paper-title" href="https://doi.org/10.1007/s10915-026-03373-x">Asymptotic-Preserving Particle-In-Cell Method for the Magnetized Vlasov–Poisson–Fokker–Planck Equation</a></p>
+            <p class="authors">Anjiao Gu, <strong>Xiaojiang Zhang</strong></p>
+            <p class="venue"><em>Journal of Scientific Computing</em>, 108, Article 49 (2026). <a href="https://doi.org/10.1007/s10915-026-03373-x">[DOI]</a></p>
+            <p class="paper-summary">Asymptotic-preserving particle methods for a strongly magnetized kinetic equation, with analysis of their asymptotic properties and uniform convergence.</p>
+          </li>
+          <li class="publication">
+            <p><a class="paper-title" href="https://arxiv.org/abs/2504.00340">Depth splitting method for the linear Boltzmann model of primary proton distribution</a></p>
+            <p class="authors"><strong>Xiaojiang Zhang</strong>, Xuemin Bai, Min Tang</p>
+            <p class="venue"><em>Communications in Computational Physics</em>, Accepted (2025). <a href="https://arxiv.org/abs/2504.00340">[arXiv]</a></p>
+            <p class="paper-summary">A deterministic solver combining scattering decomposition and depth splitting for proton transport, with dose distributions compared against Monte Carlo simulations.</p>
+            <p class="paper-note">Preprint title: A deterministic solver for the linear Boltzmann model of a single mono-directional proton beam.</p>
+          </li>
+          <li class="publication">
+            <p><a class="paper-title" href="https://doi.org/10.1016/j.jcp.2023.112368">A fully asymptotic preserving decomposed multi-group method for the frequency-dependent radiative transfer equations</a></p>
+            <p class="authors"><strong>Xiaojiang Zhang</strong>, Peng Song, Yi Shi, Min Tang</p>
+            <p class="venue"><em>Journal of Computational Physics</em>, 491, 112368 (2023). <a href="https://doi.org/10.1016/j.jcp.2023.112368">[DOI]</a></p>
+            <p class="paper-summary">A decomposed multi-group method with asymptotic-preserving frequency, time, and space discretizations in different radiation diffusion limits.</p>
+          </li>
+          <li class="publication">
+            <p><a class="paper-title" href="https://doi.org/10.1016/j.jcp.2021.110895">A spatial-temporal asymptotic preserving scheme for radiation magnetohydrodynamics in the equilibrium and non-equilibrium diffusion limit</a></p>
+            <p class="authors">Shi Jin, Min Tang, <strong>Xiaojiang Zhang</strong></p>
+            <p class="venue"><em>Journal of Computational Physics</em>, 452, 110895 (2022). <a href="https://doi.org/10.1016/j.jcp.2021.110895">[DOI]</a></p>
+            <p class="paper-summary">A decomposition of radiative intensity yields a space-time asymptotic-preserving scheme for both equilibrium and non-equilibrium diffusion limits.</p>
+          </li>
+          <li class="publication">
+            <p><a class="paper-title" href="https://doi.org/10.1137/20M1318031">Accurate Front Capturing Asymptotic Preserving Scheme for Nonlinear Gray Radiative Transfer Equation</a></p>
+            <p class="authors">Min Tang, Li Wang, <strong>Xiaojiang Zhang</strong></p>
+            <p class="venue"><em>SIAM Journal on Scientific Computing</em>, 43(3), B759–B783 (2021). <a href="https://doi.org/10.1137/20M1318031">[DOI]</a></p>
+            <p class="paper-summary">A prediction-correction-projection approach that captures front propagation in the nonlinear diffusion limit while preserving the free-streaming limit.</p>
+          </li>
+          <li class="publication">
+            <p><a class="paper-title" href="https://doi.org/10.1016/j.jcp.2021.110290">Semi-implicit front capturing schemes for the degenerate nonlinear radiative diffusion equation</a></p>
+            <p class="authors">Min Tang, <strong>Xiaojiang Zhang</strong></p>
+            <p class="venue"><em>Journal of Computational Physics</em>, 436, 110290 (2021). <a href="https://doi.org/10.1016/j.jcp.2021.110290">[DOI]</a></p>
+            <p class="paper-summary">Two semi-implicit front-capturing schemes for degenerate nonlinear radiative diffusion, examining accuracy, stability, and computational cost.</p>
+          </li>
+        </ol>
+      </section>
 
-            span.wow {
-                font-size: 11px;
-                color: #FFFFFF;
-                /* color: #07889b; */
-                background-color: rgb(180, 16, 44);
-                box-shadow: 2px 2px 1px #E0E0E0;
-                padding: 1px 5px 2px 5px;
-            }
+      <section id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experiences</h2>
+        <h3>Employment</h3>
+        <div class="entry"><div class="date">Jul. 2024 - present</div><div><p><strong>Central South University</strong></p><p>School of Mathematics and Statistics</p></div></div>
+        <div class="entry"><div class="date">Jul. 2022 - Jul. 2024</div><div><p><strong>Shanghai Jiao Tong University</strong></p><p>Institute of Natural Sciences</p><p>Postdoctoral Researcher. Mentors: H. P. Zhang and Min Tang</p></div></div>
+        <h3>Education</h3>
+        <div class="entry"><div class="date">Sep. 2016 - Aug. 2022</div><div><p><strong>Shanghai Jiao Tong University</strong></p><p>Ph.D. in Computational Mathematics. Advisor: Min Tang</p></div></div>
+        <div class="entry"><div class="date">Sep. 2012 - Jun. 2016</div><div><p><strong>Central South University</strong></p><p>B.Sc. in Mathematics and Applied Mathematics</p></div></div>
+      </section>
 
-            a {
-                color: #1772d0;
-                /* color: #07889b; */
-                text-decoration: none;
-            }
+      <section id="teaching" aria-labelledby="teaching-title">
+        <h2 id="teaching-title">Teaching Experience</h2>
+        <p><strong>Central South University (CSU)</strong></p><ul class="teaching-list">
+          <li><strong>Probability and Statistics</strong>, undergraduate course, Fall semester, 2025.</li>
+          <li><strong>Linear Algebra</strong>, undergraduate course, Spring semester, 2025.</li>
+          <li><strong>Statistical Inverse Problem</strong>, graduate course, Fall semester, 2025.</li>
+        </ul>
+      </section>
 
-            a.black {
-                color: #000000;
-                /* color: #07889b; */
-                text-decoration: none;
-            }
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Research Projects</h2>
+        <ul class="project-list">
+          <li><strong>Young Scientists Fund, National Natural Science Foundation of China</strong><br><span class="small">Principal Investigator</span></li>
+          <li><strong>Young Scientists Fund, Natural Science Foundation of Hunan Province</strong><br><span class="small">Principal Investigator</span></li>
+          <li><strong>China Postdoctoral Science Foundation, 72nd General Program (Second Class)</strong><br><span class="small">Principal Investigator; Nov. 2022 - Jun. 2024</span></li>
+          <li><strong>Nuclear Science Challenge Program for National Defense Basic Research</strong><br><span class="small">Participant; Jan. 2017 - Dec. 2019</span></li>
+          <li><strong>Special Project, CAEP Inertial Confinement Center</strong><br><span class="small">Participant; Jan. 2018 - Dec. 2019</span></li>
+          <li><strong>Strategic Priority Research Program, Chinese Academy of Sciences</strong><br><span class="small">Participant; Jan. 2020 - Dec. 2024</span></li>
+        </ul>
+      </section>
 
-            a:focus,
-            a:hover {
-                /* color: #e37222; #f09228; */
-                color: rgb(180, 16, 44);
-                text-decoration: none;
-            }
+      <section id="honors" aria-labelledby="honors-title">
+        <h2 id="honors-title">Honors and Awards</h2>
+        <ul class="honors">
+          <li><span class="date">2023</span> - Chenxing Postdoctoral Program, Shanghai Jiao Tong University</li>
+          <li><span class="date">2022</span> - Outstanding Graduate, Shanghai Jiao Tong University</li>
+          <li><span class="date">2021</span> - Outstanding Student, Shanghai Jiao Tong University</li>
+          <li><span class="date">2021</span> - Wu Wenjun Scholarship, Shanghai Jiao Tong University</li>
+          <li><span class="date">2021</span> - Weichai Power Scholarship, Shanghai Jiao Tong University</li>
+          <li><span class="date">2016</span> - Outstanding Graduate, Central South University</li>
+          <li><span class="date">2014</span> - Huang Qianheng Scholarship, Central South University</li>
+        </ul>
+      </section>
 
-            body,
-            td,
-            th,
-            tr,
-            p,
-            a {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 16px;
-            }
+      <section id="activities" aria-labelledby="activities-title">
+        <h2 id="activities-title">Talks and Professional Service</h2>
+        <h3>Selected Talks</h3>
+        <ul>
+          <li>Workshop on Scientific Computing: Algorithms and Modeling, Shanghai Jiao Tong University, 2023.</li>
+          <li>Doctoral Workshop on Applied Mathematics, Fudan University, 2022.</li>
+          <li>Invited talk, TM20 Minisymposium, 19th Annual Meeting of the China Society for Industrial and Applied Mathematics.</li>
+          <li>Invited talk, 4th Peking University Workshop for Outstanding Doctoral Students in Computational and Applied Mathematics and 7th Beijing Graduate Forum on Computational Mathematics.</li>
+          <li>Student presentation, 2018 Annual Meeting of the Challenge Program on High-Accuracy and High-Resolution Computational Methods.</li>
+        </ul>
+        <h3>Professional Service</h3>
+        <ul>
+          <li>Workshop organization: Workshop on Kinetic and Fluid Equations, 2023.</li>
+        </ul>
+      </section>
 
-            strong {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 16px;
-            }
+      <section id="patents" aria-labelledby="patents-title">
+        <h2 id="patents-title">Patent Application</h2>
+        <p>A simulation method for determining primary proton dose distributions based on probability density and operator splitting (patent application).</p>
+      </section>
 
-            h2 {
-                color: rgb(180, 16, 44);
-                margin-top: 0.7em;
-                margin-bottom: 0.3em;
-                padding-bottom: 0.2em;
-                line-height: 1.0;
-                padding-top: 0.5em;
-                border-bottom: 1px solid #aaaaaa;
-            }
-
-            heading {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 22px;
-                /* color: #e3225c; */
-                color: rgb(180, 16, 44);
-                /* color: rgb(117, 15, 109); */
-            }
-
-            subheading {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 18px;
-                font-style: italic;
-                /* color: #e3225c; */
-                color: rgb(180, 16, 44);
-            }
-
-            papertitle {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 16px;
-                font-weight: bold;
-            }
-
-            name {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 32px;
-            }
-
-            .footer {
-                font-family: 'Lato', Verdana, Helvetica, sans-serif;
-                font-size: 16px;
-                opacity: 0.75;
-                color: #777;
-            }
-
-            .one {
-                width: 160px;
-                height: 160px;
-                position: relative;
-            }
-
-            .two {
-                width: 160px;
-                height: 160px;
-                position: absolute;
-                transition: opacity .2s ease-in-out;
-                -moz-transition: opacity .2s ease-in-out;
-                -webkit-transition: opacity .2s ease-in-out;
-            }
-
-            .fade {
-                transition: opacity .2s ease-in-out;
-                -moz-transition: opacity .2s ease-in-out;
-                -webkit-transition: opacity .2s ease-in-out;
-            }
-
-            span.highlight {
-                background-color: #ffffd0;
-            }
-
-            span.artifact {
-                color: #6cb41b;
-                padding: 1px;
-            }
-
-            span.underline {
-                border-bottom: 1px solid black;
-                padding-bottom: 1px;
-            }
-
-            span.tldr {
-                color: #555555;
-            }
-
-            em.highlight {
-                color: #e37222;
-            }
-        </style>
-        <link rel="icon" type="images/png" href="images/cuhk.png">
-        <title>Yushun Zhang</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    </head>
-
-    <body>
-        <table width="960" border="0" align="center" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>
-                    <!-- Intro Begin -->
-                    <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
-                        <colgroup>
-                            <col span="1" style="width: 22%;">
-                            <col span="1" style="width: 78%;">
-                        </colgroup>
-                        <tr>
-                            <td valign="middle">
-                                <!-- <img src="images/red.jpeg" height="220px"> -->
-                                <img src="images/IMG_1654.jpeg" height="200px">
-                            </td>
-                            <td valign="middle">
-                                <p align="left">
-                                    <name>Yushun Zhang</name>
-                                </p>
-                                <!-- <p>老版本
-                                    Ph.D. student, <br>
-                                    <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, <br>
-                                    <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>
-                                </p> -->
-                                <!-- <p> Backbone Team, DeepSeek AI
-                                </p> -->
-                                <p> Postdoc at Stanford University
-                                </p>
-                                <!-- <p> Prev: Ph.D. student at CUHK-Shenzhen
-                                </p> -->
-                                <p align="left">
-                                    <!-- E-mail: <span>xueyao_98 [AT] foxmail [DOT] com</span> -->
-                                    Email: <span>yushunzhang [AT] link.cuhk.edu.cn; yushunz [AT] stanford.edu</span>
-                                    <!-- or <span class="underline">zhangxueyao19s@ict.ac.cn</span> -->
-                                </p>
-                                <p align="left">
-                                    <a href="https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en">Google Scholar</a>
-                                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                                    <a href="https://github.com/zyushun">GitHub</a>
-                                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                                    <a href="https://twitter.com/ericzhang0410"> Twitter </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                                    <!-- <br> -->
-                                    <a href="https://m.weibo.cn/u/5943315585?t=0&luicode=10000011&lfid=231583">Weibo</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
-                                    <!-- <a href="https://www.instagram.com/ericzhang0410/">Instagram</a> -->
-                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
-                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
-                                    <!-- <a href="https://weibo.com/u/5831484448">Weibo</a> &nbsp;&nbsp;&nbsp; -->
-                                    <a href="files/Yushun_Zhang_CV_202607.pdf">CV</a>
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-  
-                    <h2>About me</h2>
-                    <p>I am a <a href=https://profiles.stanford.edu/yushun-zhang>Postdoctoral researcher</a> at Stanford University, working with   <a href="https://web.stanford.edu/~udell/">Prof. Madeleine Udell</a>. I recently obtained my Ph.D. from The Chinese University of Hong Kong, advised by <a href="https://tomluo123.github.io/">Prof. Zhi-Quan (Tom) Luo</a> at CUHK-Shenzhen.  I'm also very fortunate to work closely with <a href="https://ruoyus.github.io">Prof. Ruoyu Sun</a> at CUHK-Shenzhen. Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). </p>
-  
-                    <!-- <p>I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. I'm very proud to be advised by <a href="https://scholar.google.com/citations?user=dW3gcXoAAAAJ&amp;hl=en">Prof. Zhi-Quan (Tom) Luo</a>.  I'm also very fortunate to work closely with <a href="https://ruoyus.github.io">Prof. Ruoyu Sun</a>. Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). </p> -->
-                    <p>My research focuses on optimization, neural networks, and especially, large language models. I am interested in important and practical problems with optimization flavor. </p>
-                        
-                    <p>My Ph.D. thesis is titled "On the Principles Behind Neural Network Optimizers". The thesis develops theoretical foundations for modern NN optimizers and uses these insights to design better methods. </p>
-
-                    <!-- <p> I am currently with DeepSeek AI, Backbone Team. I will join Stanford University as a <a href=https://profiles.stanford.edu/yushun-zhang>Postdoc researcher</a> in Sep., 2026, working with   <a href="https://web.stanford.edu/~udell/">Prof. Madeleine Udell</a>.  -->
-<!-- 
-                    <p> I will join Stanford University as a Postdoc researcher in the FAll, 2026, working with   <a href="https://web.stanford.edu/~udell/">Prof. Madeleine Udell</a>.  -->
-
-                    <!-- <p><b>Personal update:</b> I'm very excited to join  <a href="https://moonshot.ai">Moonshot AI (Kimi)</a> as a intern in July 2025. -->
-                        <!-- the pre-training team of <a href="https://moonshot.ai">Moonshot AI (Kimi)</a> as a summer intern in 2025. Leader: <a href="https://scholar.google.com.hk/citations?user=cdbdaksAAAAJ&hl=en">Jianlin Su</a>. </p> -->
-
-                    <section class="industry">
-                        <h2>Professional Experience</h2> 
-
-                        <div class="entry">
-                            <div class="date">09/2026 -&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">    
-                                    <b>Postdoc. </b>, <a href=https://profiles.stanford.edu/yushun-zhang>Stanford University,  MS & E Department</a>. Mentor: <a href="https://web.stanford.edu/~udell/">Prof. Madeleine Udell</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="entry">
-                            <div class="date">07/2026 - &nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">    
-                                    <b>Researcher. </b>, DeepSeek AI, Backbone Team. 
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <div class="entry">
-                            <div class="date">03/2026 -&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">    
-                                    <b>Intern. </b>, DeepSeek AI, Backbone Team. Mentor: <a href="https://openreview.net/profile?id=~Huazuo_Gao1" target="_blank">Huazuo Gao</a>
-                                </div>
-                                <!-- <div class="title-row">    
-                                    <b>Intern. </b>, DeepSeek AI, Backbone Team
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <div class="entry">
-                            <div class="date">07/2025 - 03/2026 &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">    
-                                    <b>Intern. </b>, Moonshot AI (Kimi), Scaling Team.  Mentor: <a href="https://scholar.google.com/citations?user=cdbdaksAAAAJ&hl=en" target="_blank">Jianlin Su</a>
-                                </div>
-                                <!-- <div class="title-row">    
-                                    <b>Intern. </b>, Moonshot AI (Kimi), Scaling Team
-                                </div> -->
-                            </div>
-                        </div>
-
-                    </section> 
-
-                    <style> 
-                    .industry .entry {
-                        display: flex;
-                        margin-bottom: 1.2em;
-                        line-height: 1.5;
-                    }
-                    .industry .content p {
-                        margin: 0.2em 0;
-                        color: #333;
-                    }
-                    
-                    .industry a:hover {
-                        text-decoration: underline;
-                    }
-                    </style>
-
-                    <section class="education">
-                        <h2>Education</h2>
-                        
-                        <div class="entry">
-                            <div class="date">09/2019 - 03/2026 &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">    
-                                    <b>Ph.D. </b>, The Chinese University of Hong Kong
-                                </div>
-                                <p>School of Data Science</p>
-                                <!-- <p>Thesis: <em> <a href="files/PhD_Thesis_final.pdf">On the Principles Behind Neural Network Optimizers</em></a></p> -->
-                                <p>Thesis: <em> On the Principles Behind Neural Network Optimizers</em></p>
-                                <p>Advisor: <a href="https://tomluo123.github.io/" target="_blank">Zhi-Quan (Tom) Luo</a></p>
-                            </div>
-                        </div>
-                    
-                        <div class="entry">
-                            <div class="date">09/2015 – 06/2019  &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">
-                                    <b>B.S.</b>, Southern University of Science and Technology
-                                </div>
-                                <p>Department of Mathematics</p>
-                                <p><em>Magna Cum Laude</em></p>
-                                <p><em>Outstanding Graduation Thesis Award</em></p>
-                                <p><em>Scholarship Award for Excellence (Top 10 Students) in the Department of Mathematics</em></p>
-                            </div>
-                        </div>
-                    
-                        <div class="entry">
-                            <div class="date">03/2019 – 06/2019  &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">
-                                    <b>Visiting student,</b> University of California, San Diego
-                                </div>
-                                <p>Department of Mathematics</p>
-                            </div>
-                        </div>
-                    
-                        <div class="entry">
-                            <div class="date">09/2012 – 06/2015  &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">
-                                    Shenzhen Foreign Language School
-                                </div>
-                            </div>
-                        </div>
-                        <div class="entry">
-                            <div class="date">09/2009 – 06/2012  &nbsp;</div>
-                            <div class="content">
-                                <div class="title-row">
-                                    Shenzhen Foreign Language School, Branch
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <style> 
-                    .education .entry {
-                        display: flex;
-                        margin-bottom: 1.2em;
-                        line-height: 1.5;
-                    }
-                    .education .content p {
-                        margin: 0.2em 0;
-                        color: #333;
-                    }
-                    
-                    .education a {
-                        color: #333;
-                        text-decoration: none;
-                    }
-                    
-                    .education a:hover {
-                        text-decoration: underline;
-                    }
-                    </style>
-
-
-                    <!-- <h2> Biography</h2> 老版本
-                    <ul>
-                        <li><b>2019.09 - 2026.03:</b> Ph.D., School of Data Science, The Chinese University of Hong Kong </li>
-                        <li><b>2015 - 2019:</b> B.S., Department of Mathematics, Southern University of Science and Technology</li>
-                        <li><b>2012 - 2015:</b> Shenzhen Foreign Language School</li>
-                        <li><b>2009 - 2012:</b> Shenzhen Foreign Language School, Branch</li>
-                    </ul> -->
-
-                    <!-- <h2>Research that I lead or co-lead</h2> -->
-                    <h2>Major Research Projects</h2>
-                    <p><span style="font-size: 16px;">(A more comprehensive list of my research papers can be seen in <a style="font-size: 16px;" href="https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en">Google Scholar</a>)</span></p>
-                    <p><a href="https://arxiv.org/abs/2603.02092">Adam Converges Without Any Modification on Update Rules</a> <br />
-                        <b>Yushun Zhang </b>, Bingran Li, Congliang Chen, Zhi-Quan Luo, Ruoyu Sun <br />
-                        <span style="font-size: 16px;">(This is the journal extension version of the NeurIPS 2022 paper <a href="https://nips.cc/virtual/2022/spotlight/65228" style="font-size: 16px; color: black;">"Adam Can Converge Without Any Modification on Update Rules".</a>)</span><br />
-                        Under review at Mathematical Programming</p>
-                    <p><a href="https://arxiv.org/abs/2505.02809">Towards Quantifying the Hessian Structure of Neural Networks</a> <br />
-                        Zhaorui Dong*, <b>Yushun Zhang* </b>, Jianfeng Yao, Ruoyu Sun <br />
-                        <span style="font-size: 16px;">(*: Equal contribution. Alphabetically ordered.)</span><br />
-                        Under review at IEEE Transactions on Information Theory</p>
-                    <p><a href="https://www.arxiv.org/pdf/2505.09814">XX^t Can Be Faster</a> <br />
-                        Dmitry Rybin, <b>Yushun Zhang </b>, Zhi-Quan Luo <br />
-                        Preprint</p>
-                    <p><a href="https://arxiv.org/abs/2412.21068">Finite Horizon Optimization: Framework and Applications</a> <br />
-                        <b>Yushun Zhang </b>, Dmitry Rybin, Zhi-Quan Luo <br />
-                        Preprint</p>
-                    <p><a href="http://arxiv.org/abs/2406.16793">Adam-mini:  Use Fewer Learning Rates To Gain More</a> <br />
-                    <b>Yushun Zhang* </b>, Congliang Chen*,  Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun <br />
-                    <span style="font-size: 16px;">(*: Equal contribution.)</span><br />
-                    <a href="images/speech_adam_mini.jpeg" style="font-size: 16px; color: black;">(This work is acknowledged at the  2025 Test of Time Award Speech for its contribution to  <span style="color: red;">reduce the memory footprint </span> of  Adam.) </a></br> 
-                    <a href="https://iclr.cc/virtual/2025/test-of-time/37599" style="font-size: 16px; color: black;">(See the ICLR official video at approximately 47:10 for more details)</a></br>
-                    <b style="color: #0000CC;">ICLR 2025 </b> </p>
-                    <p><a href="https://arxiv.org/abs/2402.16788">Why Transformers Need Adam: A Hessian Perspective</a> <br />
-                    <b>Yushun Zhang</b>, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo <br />
-                    <b style="color: #0000CC;">NeurIPS 2024</b> </p>
-                    <p><a href="https://nips.cc/virtual/2022/spotlight/65228">Adam Can Converge Without Any Modification on Update Rules</a>  <br />
-                    <b>Yushun Zhang</b>, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  <br />
-                    <a href="images/speech_adam_can_converge.jpeg" style="font-size: 16px; color: black;">(This work is acknowledged at the  2025 Test of Time Award Speech  as  <span style="color: red;">the convergence guarentee</span> of Adam optimizer.) </a> </br>
-                    <a href="https://iclr.cc/virtual/2025/test-of-time/37599" style="font-size: 16px; color: black;">(See the ICLR official video at approximately 48:55 for more details)</a></br>
-                    <b style="color: #0000CC;">NeurIPS 2022</b> <b style="color: red;">(Spotlight)</b> </br>
-                    <p><a href="https://iclr-blog-track.github.io/2022/03/25/does-adam/">Does Adam Converge and When?</a> <br />
-                    <b>Yushun Zhang</b>, Congliang Chen,  Zhi-Quan Luo <br />
-                    <b style="color: #0000CC;"> ICLR Blog Track 2022</b> </p>
-                    <p><a href="https://openreview.net/forum?id=K_MD-PMTLtA">When Expressivity Meets Trainability: Fewer than n Neurons Can Work</a>  <br />
-                    Jiawei Zhang*, <b>Yushun Zhang* </b>, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo <br />
-                    <span style="font-size: 16px;">(*: Equal contribution. Alphabetically ordered.)</span><br />
-                    <b style="color: #0000CC;">NeurIPS 2021</b> </p>
-
-
-<!-- 
-                    <h2>Research that I participate in</h2>
-                    <p><a href="https://www.arxiv.org/pdf/2505.09814">XX^t Can Be Faster</a> <br />
-                        Dmitry Rybin, <b>Yushun Zhang </b>, Zhi-Quan Luo <br />
-                        Preprint</p>
-                    <p><a href="https://openreview.net/forum?id=6Aj0aNXfRy&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Exploring and Improving Initialization for Deep Graph Neural Networks: A Signal Propagation Perspective</a> <br />
-                        Senmiao Wang, Yupeng Chen, <b>Yushun Zhang</b>, Ruoyu Sun, Tian Ding <br />
-                    <b style="color: #0000CC;"> TMLR 2025</b></p>
-                    <p><a href="https://arxiv.org/abs/2310.10505">ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models</a> <br />
-                    Ziniu Li, Tian Xu, <b>Yushun Zhang</b>, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo <br />
-                    <b style="color: #0000CC;"> ICML 2024</b></p>
-                    <p><a href="https://arxiv.org/abs/2208.09900">Provable Adaptivity of Adam under Non-Uniform Smoothness</a>  <br />
-                    Bohan Wang*, <b>Yushun Zhang*</b>, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen <br />
-                    <span style="font-size: 16px;">(*: Equal contribution.)</span><br />
-                    <b style="color: #0000CC;">KDD 2024</b></p>
-                    <p><a href="https://openreview.net/forum?id=X0nrKAXu7g-">HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning</a>  <br />
-                    Ziniu Li, Yingru Li, <b>Yushun Zhang</b>, Tong Zhang, Zhi-Quan Luo <br />
-                    <span style="font-size: 16px">(This work is also selected as  Oral presentation at <a href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865" style="font-size: 16px;">NeurIPS workshop, 2021</a>)</span> <br />
-                    <b style="color: #0000CC;">ICLR 2022</b> </p>
-                   
-                    <p><a href="\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794">Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data</a> <br />
-                    Yiqi Lin*, <b>Yushun Zhang* </b>, Guoliang Tian, Changxing Ma <br />
-                    <span style="font-size: 16px;">(*: Equal contribution.)</span><br />
-                    <span style="font-size: 16px;">(This work is done in SUSTech) </span><br />
-                    <b style="color: #0000CC;">Journal of Biopharmaceutical Statistics 2020 </b> </p>
-                  -->
-
-
-                    <h2>Invited Talks</h2>
-                    <p><b>June 2026:</b> I gave a talk at SIAM OP 2026, Edinburgh, UK, hosted by <a href="https://www.xiao-li.org/">Prof. Xiao Li</a>.  Thanks Prof. Li for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Towards Quantifying the Hessian Structure of Neural Networks</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/2026_06_hessian_structure.pdf">here (with Muon and NorMuon included) </a>. </p>
-                        </li>
-                    </ul>
-                    <p><b>Jan 2026:</b> I gave two talks at Shanghai Jiao Tong University (SJTU) & CUHK. The talk at SJTU was hosted by <a href="https://stanford.edu/~yyye/">Prof. Yinyu Ye</a>.  Thanks Prof. Ye for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Towards Quantifying the Hessian Structure of Neural Networks</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/2026_01_hessian_structure.pdf">here </a>. </p>
-                        </li>
-                    </ul>
-                    <p><b>June 2025:</b> I gave a talk at ICTCAS and FAI Seminar, hosted by <a href="https://bhwangfy.github.io/">Bohan Wang</a> and <a href="https://www.tengjiaye.com/">Jiaye Teng</a>. Thanks Bohan and Jiaye for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Towards Quantifying the Hessian Structure of Neural Networks</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/2025_06_27_hessian_structure.pdf">here </a>. Recording at Bilibili can be seen <a href="https://www.bilibili.com/video/BV1To3TzmEX3/?spm_id_from=333.1387.favlist.content.click&vd_source=b8b6914e46e69bb3e96887b7e942bb4e">here</a>.</p>
-                        </li>
-                    </ul>
-                    <p><b>Dec 2024:</b> I gave a talk at Tsinghua University, hosted by <a href="https://kaifeng.ac/">Kaifeng Lyu</a>. Thanks Kaifeng for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Adam for Transformers: Why and Why Not</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/1209_tsinghua_adamtalk.pdf">here </a></p>
-                        </li>
-                    </ul>
-                    <p><b>Oct 2024:</b> I gave a talk at University of Minnesota, hosted by <a href="https://scholar.google.com/citations?user=qRnP-p0AAAAJ&amp;hl=en">Prof. Mingyi Hong</a>. Thanks Prof. Hong for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/1024_umntalk.pdf">here (this is a >40 min version with Adam-mini included)</a></p>
-                        </li>
-                    </ul>
-                    <p><b>Oct 2024:</b> I gave a talk at INFORMS Anneal Meeting, Seattle, hosted by <a href="https://scholar.google.com/citations?user=7ubAY0UAAAAJ&amp;hl=en">Jianhao Ma</a>. Thanks Jianhao for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/spectrum_talk_informs.pdf">here (this is a 15 min version)</a></p>
-                        </li>
-                    </ul>
-                    <p><b>Sep 2023:</b> I gave a talk at Tsinghua University, hosted by <a href="https://scholar.google.com/citations?user=zX7i1EkAAAAJ&amp;hl=en">Prof. Jian Li</a>. Thanks Prof. Li for the invitation!</p>
-                    <ul>
-                        <li>
-                            <p>Topic: <a href="https://iiis.tsinghua.edu.cn/show-10454-1.html"> Converge or Diverge? A Story of Adam</a></p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen <a href="files/Adam_talk_Tsinghua.pdf">here</a></p>
-                        </li>
-                    </ul>
-                    <p><b>Jan 2023:</b> I gave a talk at Google Brain, hosted by <a href="https://scholar.google.nl/citations?user=yyIoQu4AAAAJ&amp;hl=en">Dr. Diederik P. Kingma</a>. Thanks Dr. Kingma for the invitation! </p>
-                    <ul>
-                        <li>
-                            <p>Topic: Adam Can Converge Without Any Modification on Update Rules </p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen  <a href="files/Adam_talk_google_short.pdf">here</a></p>
-                        </li>
-                    </ul>
-
-
-                    <h2>Awards</h2>
-                    <p><b>Dec 2023:</b> Duan Yongping Outstanding Resesearch Award (1st place)</p>
-                    <p><b>Dec 2023:</b> Teaching Assistant Award, School of Data Science</p>
-                    <p><b>Aug 2022:</b> Best Paper Presentation Award (1st place), <a href="https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q">2nd Doctoral and Postdoctoral Daoyuan Academic Forum</a><br /></p>
-                    <ul>
-                        <li>
-                            <p>Topic: Does Adam Converge and When?<br /></p>
-                        </li>
-                        <li>
-                            <p>Slides can be seen  <a href="files/Adam_talk_sribd.pptx">here</a>.<br /></p>
-                        </li>
-                        <li>
-                            <p>A short version of this talk can be viewed <a href="https://nips.cc/virtual/2022/poster/53721">here</a>.</p>
-                        </li>
-                    </ul>
-                    <p><b>Jul 2021:</b>  Best Paper Presentation Award (1st place), <a href="https://www.tbsi.edu.cn/wolt/index.html">3rd Tsinghua-Berkeley workshop on Learning Theory</a><br /></p>
-                    <ul>
-                        <li>
-                            <p>Topic: When Expressivity Meets Trainability: Width < n Can Work<br /></p>
-                        </li>
-                        <li>
-                            <p>A short version of this talk can be viewed <a href="https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended">here</a>.</p>
-                        </li>
-                    </ul>
-                    <p><b>Jun 2019:</b>  Magna cum laude of SUSTech</p>
-                    <p><b>Jun 2019:</b>  Outstanding graduation thesis, SUSTech</p>
-                    <p><b>Sep 2018:</b>  Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 students)</p>
-
-
-                    <h2>Services</h2>
-                    <h4>Reviewer</h4>
-                    <p>I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, ICML, COLT, AISTATS, as well as journals including JMLR and TMLR.</p>
-                    <h4>Social Activities</h4>
-                    <p>I hosted a session named <a href="https://submissions.mirasmart.com/InformsAnnual2024/Itinerary/EventDetail.aspx?evt=956">&ldquo;Optimization Issues in Recent AI Models&rdquo;</a> at INFORMS Anneal Meeting, Oct, 2024.</p>
-                    <h4>Teaching Assistant (by time)</h4>
-                    <ul>
-                        <li>
-                            <p>DDA4300: Optimization for Machine Learning, by Prof. Yinyu Ye (2023 Spring)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>DDA 6060: Machine Learning, by Prof. Hongyuan Zha & Prof. Shuang Li (2022 Spring)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>DDA 4002: Multivariate Statistics, by Prof. Zhaoyuan Li (2021 Autumn)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>DDA 4250: Mathematics for Deep Learning, by Prof. Arnulf Jentzen (2021 Spring)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>MFE 5100: Optimization, by Prof. Zizhuo Wang (2020 Autumn)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>STA 2002: Probalility and Statistics, by Prof. Xinyun Chen  (2020 Summer)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>CSC 4020: Fundamentals of Machine Learning, by Prof. Hongyuan Zha (2020 Spring)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>MAT 2040: Linear algebra, by Prof. Shenghao Yang (2019 Autumn)</p>
-                        </li>
-                    </ul>
-                    <!-- <ul>
-                        <li>
-                            <p>MAT 7035: Computational Statistics, by Prof. Guoliang Tian (SUSTech) (2018 Autumn)</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <p>MA 204: Mathematical Statistics, by Prof. Guoliang Tian (SUSTech)  (2018 Spring)</p>
-                        </li>
-                    </ul> -->
-                    <h2>Experiences</h2>
-                    <!-- <p><b>2019 Spring:</b>  I spent a great time as an exchange undergraduate student at Mathematics department, UC San Diego.</p> -->
-                    <p><b>2009 - 2012:</b>  I spent the best three years at the Shenzhen Foreign Language School, branch.</p>
-                    <br>
-                    <br>
-                </td>
-            </tr>
-        </table>
-    </body>
+      <div id="footer">
+        <div id="footer-text">
+          <p>Last updated: October 29, 2026. Layout based on <a href="https://jemdoc.jaboc.net/">jemdoc</a>.</p>
+          <p>Sources: <a href="https://faculty.csu.edu.cn/zhangxiaojiang/zh_CN/index.htm">university profile</a>, <a href="https://ins.sjtu.edu.cn/people/mtang/Publications.html">Min Tang's publication list</a>, and the author's CV, with publication metadata checked against journal and preprint records.</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+</body>
 </html>
